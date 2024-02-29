@@ -20,9 +20,16 @@
             </div>
         </div>
         <div>
-            <button>Login</button>
-            <button>Register</button>
+            <button id="btnlogin">Login</button>
+            <a href="./register.html"><button>Register</button></a>
             </div>
         </center>
     </body>
+    <script>
+        console.log("hello tite");
+        let buttonLogin = document.querySelector('#btnlogin');
+        buttonLogin.onclick = function () {
+            alert("Login successfully.")
+        };
+    </script>
 </html>
